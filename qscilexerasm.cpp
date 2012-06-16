@@ -20,7 +20,8 @@ QsciLexerAsm::QsciLexerAsm (QObject *parent):
               << "rep" << "ret" << "push" << "pop" <<
                  "loop" << "jz" << "jne" << "jo" << "ja" << "int"<<
                  "pushad" << "lea" << "add" << "and" << "or" << "inc"<<
-                 "dec" << "je" << "ret";
+                 "dec" << "je" << "ret" << "nop" 
+                 << "xchg";
 
     cmpwordslist << "cmp" << "test";
 
